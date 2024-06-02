@@ -1,0 +1,2 @@
+# 2209-A-T-B-TAK-PROJES-
+TÜBİTAK 2209-A kapsamında desteğe hak kazanan projemin kodları ve temel yapısı (DERI ILETKENLIGI OLCUMU ILE BIREYIN DUYGU DURUMUNUN YAPAY ZEKA ILE ANALIZ EDILMESI )
