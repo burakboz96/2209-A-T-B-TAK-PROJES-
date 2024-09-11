@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Portföyü</title>
+    <link rel="stylesheet" href="kullanici-portfoyu.css">
+</head>
+<body>
+    <header>
+        <h1>Kullanıcı Portföyü</h1>
+        <nav>
+            <div class="nav-container">
+                <a href="#about" class="nav-item">Hakkında</a>
+                <a href="#emotion-recognition" class="nav-item">Duygu Tanıma</a>
+                <a href="#health-applications" class="nav-item">Sağlık Uygulamaları</a>
+                <a href="#contact" class="nav-item">İletişim</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Proje Hakkında</h2>
+            <p>Bu proje, GSR (Galvanic Skin Response) sensörü kullanarak duygusal durumu analiz eden bir sistem sunmaktadır. Bu sistem, çeşitli duyguların ölçülmesini sağlayarak kişisel sağlık ve ruh hali değerlendirmelerine yardımcı olur.</p>
+        </section>
+        <section id="emotion-recognition">
+            <h2>Duygu Tanıma Algoritmaları</h2>
+            <p>Duygu tanıma algoritmaları, GSR verilerini kullanarak kişinin ruh halini belirler. Algoritmalar, farklı duygusal durumları sınıflandırmak için makine öğrenimi tekniklerini kullanır. Bu sayede, kullanıcıların duygusal durumları daha iyi anlaşılabilir.</p>
+        </section>
+        <section id="health-applications">
+            <h2>Sağlık Uygulamaları</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="C:\Users\burak bozoğlu\OneDrive\Masaüstü\duygular1.jpg" alt="Duygu Tanıma">
+                    <h3>Duygu Tanıma</h3>
+                    <p>GSR verilerini kullanarak duygusal durumu analiz etme ve sınıflandırma.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="C:\Users\burak bozoğlu\OneDrive\Masaüstü\sağlık1.jpg" alt="Sağlık Uygulamaları">
+                    <h3>Sağlık Uygulamaları</h3>
+                    <p>Sağlık ve refahı izlemek için çeşitli uygulamalar ve cihazlar.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="C:\Users\burak bozoğlu\OneDrive\Masaüstü\duygu9.jpg" alt="Zihinsel Sağlık">
+                    <h3>Zihinsel Sağlık İzleme</h3>
+                    <p>Zihinsel sağlık durumunu takip eden uygulamalar ve teknikler.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="C:\Users\burak bozoğlu\OneDrive\Masaüstü\duygu13.jpg" alt="Biyo-geribildirim">
+                    <h3>Biyo-geribildirim</h3>
+                    <p>Fizyolojik verileri kullanarak biyo-geribildirim teknikleri ile sağlığı iyileştirme.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="C:\Users\burak bozoğlu\OneDrive\Masaüstü\duygu10.jpg" alt="Stres Yönetimi">
+                    <h3>Stres Yönetimi</h3>
+                    <p>Stresi yönetmek için kullanılan teknikler ve araçlar.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="C:\Users\burak bozoğlu\OneDrive\Masaüstü\duygu7.jfif" alt="Kişiselleştirilmiş Sağlık">
+                    <h3>Kişiselleştirilmiş Sağlık İzleme</h3>
+                    <p>Bireysel sağlık verilerini kişiselleştirerek izleme ve analiz yapma.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>İletişim</h2>
+            <p>Kopyalanabilir e-posta adresi: <span id="email">burakbozoglu96@gmail.com</span></p>
+        </section>
+    </main>
+
+    <aside class="emotion-selector">
+        <h3>Duygu Durumu Ölçer</h3>
+        <form id="emotion-form">
+            <label>
+                <input type="radio" name="emotion" value="mutlu">
+                Mutlu
+            </label>
+            <label>
+                <input type="radio" name="emotion" value="sinirli">
+                Sinirli
+            </label>
+            <label>
+                <input type="radio" name="emotion" value="sasirmis">
+                Şaşırmış
+            </label>
+            <label>
+                <input type="radio" name="emotion" value="stresli">
+                Stresli
+            </label>
+            <label>
+                <input type="radio" name="emotion" value="korkmus">
+                Korkmuş
+            </label>
+            <label>
+                <input type="radio" name="emotion" value="heyecanli">
+                Heyecanlı
+            </label>
+            <label>
+                <input type="radio" name="emotion" value="uzgun">
+                Üzgün
+            </label>
+            <label>
+                <input type="radio" name="emotion" value="rahatlamis">
+                Rahatlamış
+            </label>
+            <button type="submit">Ankete Katılın</button>
+        </form>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Burak Bozoğlu. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="kullanici-portfoyu.js"></script>
+</body>
+</html>

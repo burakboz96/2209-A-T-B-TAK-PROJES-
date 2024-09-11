@@ -1,0 +1,98 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.watch-container {
+    width: 320px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #000;
+    border: 2px solid #00f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-left: 120px;
+    margin-top:120px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.time-display {
+    font-size: 22px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.waveform {
+    width: 190px;
+    height: 40px;
+    background-color: #111;
+    border: 1px solid #444;
+    margin-top: 10px;
+    position: relative;
+}
+
+.main-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:-20px;
+    margin-left: -150px;
+}
+
+.emotion-face img {
+    width: 120px;
+    height: 120px;
+    margin-right:140px;
+    margin-top:20px
+}
+
+.emotion-status {
+    font-size: 35px;
+    margin-top: -166px;
+    margin-left: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+.suggestion-button {
+    background-color: #e8d56b;
+    color: #000;
+    height: 33px;
+    width: 76px;
+    margin-top:20px;
+    padding: 1px 55px; 
+    border-radius: 15px;
+    text-align: center;
+ 
+   
+}
+
+.scan-button {
+    background-color: #f2e497;
+    color: #000;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right:234px;
+}
+
+.icons img {
+    width: 50px; /* Icon boyutunu büyüt */
+    margin-left: 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Tabanı</title>
+    <link rel="stylesheet" href="veri-tabani.css">
+</head>
+<body>
+    <header>
+        <h1>Veri Tabanı</h1>
+        <nav>
+            <a href="proje gsr.html">Ana Sayfa</a>
+            <a href="kullanici-portfoyu.html">Kullanıcı Portföyü</a>
+        </nav>
+    </header>
+    <main>
+        <section class="filter">
+            <h2>Filtreleme</h2>
+            <form id="filter-form">
+                <label for="start-date">Başlangıç Tarihi:</label>
+                <input type="date" id="start-date" name="start-date">
+                <label for="end-date">Bitiş Tarihi:</label>
+                <input type="date" id="end-date" name="end-date">
+                <button type="submit">Filtrele</button>
+            </form>
+        </section>
+        <section class="data-table">
+            <h2>Veri Tablosu</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Gün</th>
+                        <th>Tarih</th>
+                        <th>Saat</th>
+                        <th>GSR Ortalama</th>
+                        <th>Direnç</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Veriler burada dinamik olarak yüklenecek -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Burak Bozoğlu. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="veri-tabani.js"></script>
+</body>
+</html>
